@@ -206,7 +206,7 @@ margin:0;
   z-index: 1;
   width:877px;
   height:877px;
-  background-image: url('../images/kaufman-triangle.svg'); 
+  background-image: url('../images/kaufman-triangle.svg');
   background-size: cover;
 }
 .table_theme_dark {
@@ -239,7 +239,7 @@ margin:0;
   justify-content: space-between; 
 }
 .footer__author {
-  margin: 18px 0 18px 0; 
+  margin: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
