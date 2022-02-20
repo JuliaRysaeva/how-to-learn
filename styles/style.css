@@ -31,7 +31,7 @@
   line-height: 96px;
   width: 730px;
   z-index: 2;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
 }
 .header__subtitle {
   position: absolute;
@@ -43,7 +43,7 @@
   z-index: 2;
   margin: 0;
 }
-.link {
+.header__link {
   color: #2f80ed;
   text-decoration:none;
 }
@@ -235,7 +235,7 @@ margin:0;
 .footer__column_content_copyright {
   flex-basis:711px;
   display:flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: space-between; 
 }
 .footer__author {
@@ -245,8 +245,7 @@ margin:0;
   font-weight: normal;
 }
 .logo_place_footer {
-  top:0;
-  left:0;
+  position:static;
   width:183px;
   height:35px;
 }
